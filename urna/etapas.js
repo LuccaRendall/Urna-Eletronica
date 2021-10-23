@@ -1,62 +1,53 @@
 let etapas = [
     {
-      //Vereadores
+        // VEREADORES
         titulo: 'VEREADOR',
         numeros: 5,
-        candidatos: [{
-                numero: '21011',
+        candidatos: [
+            {
+                // CANDIDATO 1 - VEREADOR
+                numero: '12345',
                 nome: 'Samwise Gamgee',
                 partido: 'PTS',
-                fotos: [{
-                    url: '21011.jpg',
-                    legenda: 'Vereador'
-                }]
-            },
-            {
-                numero: '34004',
-                nome: 'Frodo Baggins',
-                partido: 'PSG',
-                fotos: [{
-                    url: '34004.jpg',
-                    legenda: 'Vereador'
-                }]
-            },
-        ]
-    },
-    {
-        //Prefeitos
-        titulo: 'PREFEITO',
-        numeros: 2,
-        candidatos: [{
-                numero: '11',
-                nome: 'Gandalf, The Gray',
-                partido: 'PTM',
-                vice: 'Bilbo Baggins',
-                fotos: [{
-                        url: '11.jpg',
-                        legenda: 'Prefeito'
-                    },
-                    {
-                        url: '11_1.jpg',
-                        legenda: 'Vice-Prefeito',
-                        small: true
-                    }
+                fotos: [
+                    {url: '5.jpg', legenda: 'Vereador', small: false}
                 ]
             },
             {
-                numero: '15',
+                // CANDIDATO 2 - VEREADOR
+                numero: '67890',
+                nome: 'Frodo Baggins',
+                partido: 'PSG',
+                fotos: [
+                    {url: '6.jpg', legenda: 'Vereador'}
+                ]
+            },
+
+        ]
+    },
+    {
+        // PREFEITOS
+        titulo: 'PREFEITO',
+        numeros: 2,
+        candidatos: [
+            {
+                numero: '11',
+                nome: 'Gandalf, The Gray',
+                partido: 'PdTM',
+                vice: 'Bilbo Baggins',
+                fotos: [
+                    {url: '1.jpg', legenda: 'Prefeito'},
+                    {url: '2.jpg', legenda: 'Vice-Prefeito', small: true}
+                ]
+            },
+            {
+                numero: '12',
                 nome: 'Sauron',
                 partido: 'PDO',
-                vice: 'Azog, The Defiler',
-                fotos: [{
-                        url: '15.jpg',
-                        legenda: 'Prefeito'
-                    },
-                    {
-                        url: '15_1.jpg',
-                        legenda: 'Vice-Prefeito',
-                        small: true
-                    }
+                vice: 'Saruman',
+                fotos: [
+                    {url: '3.jpg', legenda: 'Prefeito'},
+                    {url: '4.jpg', legenda: 'Vice-Prefeito', small: true}
                 ]
             },
         ]
